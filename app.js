@@ -2,10 +2,14 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
+var favicon = require('serve-favicon')
+var path = require('path')
 
 const app = express();
 
 app.set('view engine', 'ejs');
+
+app.use(favicon(path.join(__dirname, "public", "to-do-list.ico")))
 
 app.use(bodyParser.urlencoded({
   extended: true
