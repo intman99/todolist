@@ -1,13 +1,20 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  background-color: #f3e6e8;
+  background-image: linear-gradient(90deg, #f3e6e8 0%, #d5d0e5 100%);
+
   font-family: 'helvetica neue';
+  zoom: 1.2;
 }
 
 h1 {
   color: #fff;
   padding: 10px;
+}
+
+@media only screen and (max-width:600px) {
+  html{
+    transform: scale(375,768);
+  }
 }
 
 .box {
