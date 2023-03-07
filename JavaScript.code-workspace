@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../JavaScript"
+		},
+		{
+			"path": "../../PersonalSite"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript"
+	}
+}
